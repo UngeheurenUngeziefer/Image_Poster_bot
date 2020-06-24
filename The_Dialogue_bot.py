@@ -23,7 +23,7 @@ def help(update, context):
     help_message = "I can send you a random article from <a href='the-dialogue.com'>The Dialogue</a> website.\n\n" \
                    "<b>List of commands</b>\n" \
                    "/start - start message\n" \
-                   "/lang - change language\n" \
+                   "/lang - choose language of article\n" \
                    "/help - list of commands\n"
     context.bot.send_message(chat_id=update.effective_chat.id, text=help_message, parse_mode='HTML')
 
